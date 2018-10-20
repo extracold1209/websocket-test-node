@@ -8,8 +8,8 @@ const logger = require('morgan');
 
 const io = require('socket.io')(http);
 
-const indexRouter = require('./src/routes/index');
-const usersRouter = require('./src/routes/users');
+const indexRouter = require('./routes/index');
+const usersRouter = require('./routes/users');
 
 const port = process.env.PORT || '3000';
 

@@ -2,9 +2,9 @@
   "name": "websocket-app",
   "version": "0.0.0",
   "private": true,
-  "main": "./app.js",
+  "main": "src/server.js",
   "scripts": {
-    "start": "node ./app.js"
+    "start": "node ./src/server.js"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
